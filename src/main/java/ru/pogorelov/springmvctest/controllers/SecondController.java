@@ -1,2 +1,12 @@
-package ru.pogorelov.springmvctest.controllers;public class SecondControllr {
+package ru.pogorelov.springmvctest.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class SecondController {
+    @GetMapping("/exit")
+    public String exit(){
+        return "second/exit";
+    }
 }
