@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.pogorelov.springmvctest.dao.PersonDAO;
 import ru.pogorelov.springmvctest.models.Person;
 
-/**
- * @author Neil Alishev
- */
+
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
